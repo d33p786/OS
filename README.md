@@ -1,2 +1,2 @@
-# OS
-Shell scripting
+# Programming
+Resources

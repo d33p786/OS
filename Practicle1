@@ -1,0 +1,160 @@
+[student@localhost ~]$ date
+Fri Oct 19 13:30:57 IST 2018
+
+[student@localhost ~]$ cal
+    October 2018    
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31   
+
+[student@localhost ~]$ cal 2018
+                               2018                               
+
+       January               February                 March       
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6                1  2  3                1  2  3
+ 7  8  9 10 11 12 13    4  5  6  7  8  9 10    4  5  6  7  8  9 10
+14 15 16 17 18 19 20   11 12 13 14 15 16 17   11 12 13 14 15 16 17
+21 22 23 24 25 26 27   18 19 20 21 22 23 24   18 19 20 21 22 23 24
+28 29 30 31            25 26 27 28            25 26 27 28 29 30 31
+                                                                  
+        April                   May                   June        
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7          1  2  3  4  5                   1  2
+ 8  9 10 11 12 13 14    6  7  8  9 10 11 12    3  4  5  6  7  8  9
+15 16 17 18 19 20 21   13 14 15 16 17 18 19   10 11 12 13 14 15 16
+22 23 24 25 26 27 28   20 21 22 23 24 25 26   17 18 19 20 21 22 23
+29 30                  27 28 29 30 31         24 25 26 27 28 29 30
+                                                                  
+        July                  August                September     
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7             1  2  3  4                      1
+ 8  9 10 11 12 13 14    5  6  7  8  9 10 11    2  3  4  5  6  7  8
+15 16 17 18 19 20 21   12 13 14 15 16 17 18    9 10 11 12 13 14 15
+22 23 24 25 26 27 28   19 20 21 22 23 24 25   16 17 18 19 20 21 22
+29 30 31               26 27 28 29 30 31      23 24 25 26 27 28 29
+                                              30                  
+       October               November               December      
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6                1  2  3                      1
+ 7  8  9 10 11 12 13    4  5  6  7  8  9 10    2  3  4  5  6  7  8
+14 15 16 17 18 19 20   11 12 13 14 15 16 17    9 10 11 12 13 14 15
+21 22 23 24 25 26 27   18 19 20 21 22 23 24   16 17 18 19 20 21 22
+28 29 30 31            25 26 27 28 29 30      23 24 25 26 27 28 29
+                                              30 31 
+
+[student@localhost ~]$ cal 04 2018
+     April 2018     
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30    
+
+
+[student@localhost ~]$ echo Welcome
+Welcome
+[student@localhost ~]$ echo "Welcome"
+Welcome
+[student@localhost ~]$ echo 'Welcome'
+Welcome
+
+
+[student@localhost ~]$ who
+student  tty2         2018-10-19 13:16 (tty2)
+
+
+[student@localhost ~]$ who -H
+NAME     LINE         TIME             COMMENT
+student  tty2         2018-10-19 13:16 (tty2)
+
+
+[student@localhost ~]$ who --b
+         system boot  2018-10-19 18:44
+
+
+[student@localhost ~]$ who am i
+[student@localhost ~]$ pwd
+/home/student
+
+
+[student@localhost ~]$ clear
+
+[student@localhost ~]$ ls
+1234       Downloads     hey        nihal      T184025    Videos
+ab.txt     fcdtdebugger  hey.txt    one.sh     Templates  workspace
+B428       file.sh       mayukh     Pictures   three.sh   workspace-fcdtdebug
+Desktop    files.sh      mohit      Public     try1.txt
+dirname    fthree.sh     mohit.txt  Rishav     try.txt
+Documents  h1.txt        Music      sample.sh  two.sh
+
+
+[student@localhost ~]$ ls -a
+.              Documents      .local           sample.sh
+..             Downloads      mayukh           .swt
+1234           .eclipse       mohit            T184025
+ab.txt         .esd_auth      mohit.txt        Templates
+B428           .esmtp_queue   .mozilla         three.sh
+.bash_history  fcdtdebugger   Music            .three.sh.swp
+.bash_logout   file.sh        nihal            try1.txt
+.bash_profile  files.sh       one.sh           try.txt
+.bashrc        fthree.sh      Pictures         two.sh
+.cache         h1.txt         .pki             Videos
+.config        hey            Public           workspace
+Desktop        hey.txt        .python_history  workspace-fcdtdebug
+dirname        .ICEauthority  Rishav
+
+
+[student@localhost ~]$ ls -c
+B428       three.sh   try.txt  Videos    Documents            Music
+mohit      two.sh     h1.txt   T184025   workspace            Pictures
+mohit.txt  sample.sh  hey.txt  nihal     fcdtdebugger         Templates
+mayukh     one.sh     ab.txt   files.sh  workspace-fcdtdebug
+dirname    Rishav     hey      1234      Downloads
+fthree.sh  try1.txt   Public   file.sh   Desktop
+
+
+[student@localhost ~]$ ls -l
+total 128
+-rw-r--r--. 1 student student   76 Oct  6 12:10 1234
+-rw-rw-r--. 1 student student   35 Oct 16 14:29 ab.txt
+drwxr-xr-x. 2 student student 4096 Oct 19 13:37 B428
+drwxr-xr-x. 2 student student 4096 Sep 28 13:27 Desktop
+drwxrwxr-x. 2 student student 4096 Oct 17 16:24 dirname
+drwxr-xr-x. 2 student student 4096 Oct  6 12:02 Documents
+drwxr-xr-x. 2 student student 4096 Oct  3 18:26 Downloads
+drwxrwxr-x. 6 student student 4096 Oct  6 09:46 fcdtdebugger
+-rw-r--r--. 1 student student   76 Oct  6 12:10 file.sh
+-rw-r--r--. 1 student student  185 Oct  6 12:45 files.sh
+-rwxrwxr-x. 1 student student   54 Oct 17 10:16 fthree.sh
+-rw-rw-r--. 1 student student   35 Oct 16 14:36 h1.txt
+-rw-rw-r--. 1 student student    0 Oct 16 13:46 hey
+-rw-rw-r--. 1 student student   35 Oct 16 14:35 hey.txt
+drwxrwxr-x. 2 student student 4096 Oct 17 16:24 mayukh
+-rw-r--r--. 1 student student 3645 Oct 17 16:42 mohit
+-rw-rw-r--. 1 student student   74 Oct 17 16:35 mohit.txt
+drwxr-xr-x. 2 student student 4096 Sep 28 13:27 Music
+-rw-rw-r--. 1 student student    0 Oct  6 12:45 nihal
+-rwxrwxr-x. 1 student student  149 Oct 17 09:17 one.sh
+drwxr-xr-x. 2 student student 4096 Sep 28 13:27 Pictures
+drwxr-xr-x. 2 student student 4096 Oct 16 13:46 Public
+-rw-r--r--. 1 student student 5103 Oct 16 14:53 Rishav
+-rwxrwxr-x. 1 student student   60 Oct 17 09:33 sample.sh
+-rw-r--r--. 1 student student  465 Oct  6 12:48 T184025
+drwxr-xr-x. 2 student student 4096 Sep 28 13:27 Templates
+-rwxrwxr-x. 1 student student   61 Oct 17 10:02 three.sh
+-rw-rw-r--. 1 student student   54 Oct 16 14:49 try1.txt
+-rw-rw-r--. 1 student student   54 Oct 16 14:48 try.txt
+-rwxrwxr-x. 1 student student  259 Oct 17 09:49 two.sh
+drwxr-xr-x. 2 student student 4096 Oct  6 12:49 Videos
+drwxrwxr-x. 4 student student 4096 Oct  6 09:46 workspace
+drwxrwxr-x. 3 student student 4096 Oct  6 09:46 workspace-fcdtdebug
+
+
+
+
+

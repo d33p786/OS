@@ -1,0 +1,5 @@
+oracle
+dell
+hp
+sony
+acer
